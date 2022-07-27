@@ -702,3 +702,7 @@ textarea {
   to {
     opacity: 0;
     top: 27px; } }
+
+.bandeira {
+  width: 4rem;
+}
