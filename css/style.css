@@ -706,3 +706,28 @@ textarea {
 .bandeira {
   width: 4rem;
 }
+
+/* Language Switcher Styles */
+.flag-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.lang-btn {
+  padding: 0;
+  background: none;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.lang-btn.active {
+  border-color: #facf0f;
+  transform: scale(1.1);
+}
+
+.lang-btn:hover {
+  transform: scale(1.1);
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,6 +15,8 @@
       href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
   </head>
   <body>
     <header class="header">
@@ -22,7 +24,7 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/priscila.jpeg"
+              src="./assets/png/pri.png"
               alt="Ram Maheshwari Logo Image"
               class="header__logo-img"
             />
@@ -31,26 +33,18 @@
         </div>
         <div class="header__main">
           <ul class="header__links">
-
             <li class="header__link-wrapper">
-              <a href="./index.html" class="header__link"> Home </a>
+              <a href="./index.html" class="header__link">Home</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#about" class="header__link">Sobre </a>
+              <a href="./index.html#about" class="header__link">Sobre</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#projects" class="header__link">
-                Projetos
-              </a>
+              <a href="./index.html#projects" class="header__link">Projetos</a>
             </li>
             <li class="header__link-wrapper">
-              <a href="./index.html#contact" class="header__link"> Contato </a>
+              <a href="./index.html#contact" class="header__link">Contato</a>
             </li>
-            
-            <li class="header__link-wrapper">
-              <a href="https://techpril-esp.netlify.app/" class="header__link"> <img  class="bandeira" src="assets/png/chile.png"  alt="espanhol"> </a>
-            </li>
-
           </ul>
           <div class="header__main-ham-menu-cont">
             <img
@@ -69,37 +63,31 @@
       <div class="header__sm-menu">
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
-
             <li class="header__sm-menu-link">
-              <a href="./index.html"> Home </a>
+              <a href="./index.html">Home</a>
             </li>
-
             <li class="header__sm-menu-link">
-              <a href="./index.html#about"> Sobre </a>
+              <a href="./index.html#about">Sobre</a>
             </li>
-
             <li class="header__sm-menu-link">
-              <a href="./index.html#projects"> Projetos </a>
+              <a href="./index.html#projects">Projetos</a>
             </li>
-
             <li class="header__sm-menu-link">
-              <a href="./index.html#contact"> Contato </a>
+              <a href="./index.html#contact">Contato</a>
             </li>
-            
-            <li class="header__sm-menu-link">
-              <a href="https://techpril-esp.netlify.app/" class="header__link"> <img  class="bandeira" src="assets/png/chile.png"  alt="espanhol"> </a>
-            </li>
-            
           </ul>
         </div>
       </div>
     </header>
     <section class="home-hero">
       <div class="home-hero__content">
-        <h1 class="heading-primary">Olá, meu nome é <br> Priscila Teodório</h1>
+        <h1 class="heading-primary">
+          Olá, meu nome é<br>
+          Priscila Teodório
+        </h1>
         <div class="home-hero__info">
           <p class="text-primary">
-            Sou uma desenvolvedora Fullstack brasileira e graduanda em Ciência da Computação na Universidade Federal de Alagoas.
+            Sou uma desenvolvedora Fullstack brasileira e mestranda em Ciência da Computação na Universidade Federal de Alagoas.
           </p>
         </div>
         <div class="home-hero__cta">
@@ -149,38 +137,64 @@
         <h2 class="heading heading-sec heading-sec__mb-med">
           <span class="heading-sec__main">Sobre mim</span>
           <span class="heading-sec__sub">
-            Tenho 25 anos, sou de Maceió, Alagoas. Atualmente estou no 8º período da graduação em 
-            Ciência da Computação na Universidade Federal de Alagoas. Tenho uma conta no instagram onde compartilho 
-            meus projetos e pequenos ensinamentos na área de computação em @tech.pril.
+            Falo fluentemente inglês e espanhol, o que me permite colaborar em projetos internacionais e consumir conteúdos técnicos em diversos idiomas.
           </span>
         </h2>
         <div class="about__content">
           <div class="about__content-main">
-            <h3 class="about__content-title">Um pouco mais sobre minha experiência
+            <h3 class="about__content-title">Experiência Profissional
             </h3>
             <div class="about__content-details">
 
-              <p class="about__content-details-para">
-                Meu primeiro contato com programação foi em um curso técnico de informática aos 15 anos,
-                onde comecei a aprender <strong>Python</strong>. Um ano depois entrei na universidade e comecei a programar em
-                <strong>C, HTML, CSS, Javascript e Python</strong>.
-              </p>
+             
 
-              <p class="about__content-details-para">
-                Ainda na faculdade, participei de um grupo de pesquisa chamado <a href="https://www.instagram.com/nees.ufal/">NEES</a>
-                onde fui desenvolvedora usando <strong>PHP e Laravel</strong>, pesquisando na área da educação.
-              </p>
+              <div class="about__content-details-para">
+                <h5 style="color: #7952B3; margin-bottom: 0.5rem;">Desenvolvedora Full Stack | Lighthouse Software Systems</h5>
+                <p style="font-style: italic; margin-bottom: 1rem;">Alagoas, Brasil | Outubro de 2024 – Atualmente</p>
+                <ul style="list-style-type: disc; margin-left: 1.5rem; margin-bottom: 1.5rem;">
+                  <li>Desenvolvimento de dashboards e interfaces de usuário para controle de estoque e vendas utilizando React, Tailwind CSS, Laravel e MySQL.</li>
+                  <li>Implementação de sistema de auditoria com controle de acesso baseado em papéis e atribuição de ordens de serviço.</li>
+                  <li>Adaptação da plataforma para conexão com múltiplos bancos de dados e extração de suas estruturas, permitindo auditorias automatizadas.</li>
+                  <li>Projeto e construção de bancos de dados relacionais para consolidação e normalização de dados de diversas fontes externas.</li>
+                </ul>
+              </div>
 
-              <p class="about__content-details-para">
-                Durante o estágio pude trabalhar com <strong>PHP e Laravel</strong>, bem como com <strong>HTML, CSS, Javascript,
-                GIT e SQL </strong>que eu já tinha uma boa base estudando por conta própria. Descrevo abaixo
-                um dos projetos em que usei essas tecnologias.
-              </p>
+               <div class="about__content-details-para">
+                <h5 style="color: #7952B3; margin-bottom: 0.5rem;">Product Manager | PodUp</h5>
+                <p style="font-style: italic; margin-bottom: 1rem;">Idaho, EUA | Dezembro 2024 - Abril 2025</p>
+                <ul style="list-style-type: disc; margin-left: 1.5rem; margin-bottom: 1.5rem;">
+                  <li>Gerenciamento de equipe para organização, criação e publicação de podcasts em português.</li>
+                  <li>Otimização de SEO para publicação dos episódios gerenciados.</li>
+                </ul>
+              </div>
 
-              <p class="about__content-details-para">
-                No momento, o foco dos meus estudos pessoais tem sido o <strong>JavaScript</strong> e seu ecossistema principalmente
-                com <strong>Typescript, Vue e React</strong>. E estou trabalhando como desenvolvedora júnior, usando principalmente <strong>Vue.js</strong>,  <strong>Laravel</strong> e <strong>MySQL</strong>.
-              </p>
+              <div class="about__content-details-para">
+                <h5 style="color: #7952B3; margin-bottom: 0.5rem;">Desenvolvedora Full Stack | Ultrahaus Advisory & Product Studio</h5>
+                <p style="font-style: italic; margin-bottom: 1rem;">Toronto, Canadá | Outubro de 2023 – Setembro de 2024</p>
+                <ul style="list-style-type: disc; margin-left: 1.5rem; margin-bottom: 1.5rem;">
+                  <li>Reconstrução de sites institucionais em WordPress e PHP com uso de Elementor, eliminando a dependência de plugins.</li>
+                  <li>Redesign e manutenção do sistema Legalboards, utilizando Angular, Laravel e Tailwind CSS.</li>
+                </ul>
+              </div>
+
+              <div class="about__content-details-para">
+                <h5 style="color: #7952B3; margin-bottom: 0.5rem;">Desenvolvedora Full Stack | SEPLAG AL</h5>
+                <p style="font-style: italic; margin-bottom: 1rem;">Alagoas, Brasil | Agosto de 2021 – Setembro de 2022</p>
+                <ul style="list-style-type: disc; margin-left: 1.5rem; margin-bottom: 1.5rem;">
+                  <li>Atuação no desenvolvimento e manutenção do frontend da plataforma Alagoas Digital, alcançando mais de 1 milhão de usuários por ano.</li>
+                  <li>Recuperação de um sistema de ponto eletrônico obsoleto (CakePHP), inativo por anos, trazendo-o de volta à operação.</li>
+                  <li>Colaboração na reformulação do sistema interno de férias de servidores, com implementação de novas regras e melhoria do controle administrativo.</li>
+                </ul>
+              </div>
+
+              <div class="about__content-details-para">
+                <h5 style="color: #7952B3; margin-bottom: 0.5rem;">Professora de Inglês | Aliança Américas Idiomas</h5>
+                <p style="font-style: italic; margin-bottom: 1rem;">São Paulo, Brasil | Junho de 2020 – Setembro de 2021</p>
+                <ul style="list-style-type: disc; margin-left: 1.5rem;">
+                  <li>Ensino de inglês para alunos de níveis iniciante ao intermediário.</li>
+                  <li>Elaboração de planos de aula personalizados e materiais didáticos digitais.</li>
+                </ul>
+              </div>
 
             </div>
             <a href="./#projects" class="btn btn--med btn--theme dynamicBgClr"
@@ -189,21 +203,83 @@
           </div>
           <div class="about__content-skills">
             <h3 class="about__content-title">Tenho conhecimento em:</h3>
-            <div class="skills">
-              <div class="skills__skill">HTML</div>
-              <div class="skills__skill">CSS</div>
-              <div class="skills__skill">SASS</div>
-              <div class="skills__skill">Bootstrap</div>
-              <div class="skills__skill">JavaScript</div>
-              <div class="skills__skill">React</div>
-              <div class="skills__skill">Vue</div>
-              <div class="skills__skill">Typescript</div>
-              <div class="skills__skill">GIT</div>
-              <div class="skills__skill">PHP</div>
-              <div class="skills__skill">Laravel</div>
-              <div class="skills__skill">MySQL</div>
-              <div class="skills__skill">Python</div>
+            <div class="skills" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; text-align: center;">
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fab fa-html5" style="color: #E34F26;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">HTML5</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fab fa-css3-alt" style="color: #1572B6;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">CSS3</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fab fa-sass" style="color: #CC6699;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">SASS</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fab fa-bootstrap" style="color: #7952B3;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">Bootstrap</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fab fa-js" style="color: #F7DF1E;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">JavaScript</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fab fa-react" style="color: #61DAFB;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">React</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fab fa-vuejs" style="color: #4FC08D;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">Vue</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fab fa-php" style="color: #777BB4;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">PHP</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fab fa-laravel" style="color: #FF2D20;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">Laravel</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fab fa-wordpress" style="color: #21759B;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">WordPress</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fas fa-database" style="color: #4479A1;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">MySQL</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fab fa-python" style="color: #3776AB;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">Python</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="fab fa-git-alt" style="color: #F05032;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">Git</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="devicon-typescript-plain" style="color: #3178C6;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">TypeScript</p>
+              </div>
+              <div class="skills__skill" style="font-size: 3rem;">
+                <i class="devicon-tailwindcss-plain" style="color: #06B6D4;"></i>
+                <p style="font-size: 1rem; margin-top: 0.5rem;">Tailwind</p>
+              </div>
+            </div>
 
+            <h3 class="about__content-title" style="margin-top: 3rem;">Formação Acadêmica</h3>
+            <div class="about__content-details-para">
+              <h5 style="color: #7952B3; margin-bottom: 0.5rem;">Bacharelado em Ciência da Computação | Universidade Federal de Alagoas</h5>
+              <p style="font-style: italic; margin-bottom: 1rem;">Alagoas, Brasil | Concluído em Dezembro de 2024</p>
+              <ul style="list-style-type: disc; margin-left: 1.5rem; margin-bottom: 1.5rem;">
+                <li>Monitora das disciplinas Matemática Discreta e Desenvolvimento Web, auxiliando no aprendizado e engajamento dos alunos.</li>
+                <li>Bolsista de pesquisa no Laboratório NEES, atuando na RIEH (Rede de Inovação para a Educação Híbrida).</li>
+                <li>Nota máxima no Trabalho de Conclusão de Curso (TCC).</li>
+              </ul>
+            </div>
+
+            <div class="about__content-details-para">
+              <h5 style="color: #7952B3; margin-bottom: 0.5rem;">Mestrado em Ciência da Computação | Universidade Federal de Alagoas</h5>
+              <p style="font-style: italic; margin-bottom: 1rem;">Alagoas, Brasil | 2025 – Atualmente</p>
             </div>
           </div>
         </div>
